@@ -4,11 +4,11 @@
 
 A risk management ChartStrategy for ATAS 8.x that calculates position size from entry/stop prices and places bracket orders automatically.
 
-RiskManager is a source-available, non-commercial ATAS 8.x `ChartStrategy` for risk-based position sizing and bracket order placement.
+RiskManager is an MIT-licensed open-source ATAS 8.x `ChartStrategy` for risk-based position sizing and bracket order placement.
 
 It allows a trader to select an entry price and a stop-loss price directly on the chart. The strategy then calculates the order quantity from the configured risk amount, derives the take-profit price from the configured risk/reward ratio, and places the required orders through the ATAS strategy trading API.
 
-> This project is intended for research, personal use, and non-commercial trading workflow experiments only. It is not financial advice.
+> This project is intended for research and trading workflow experiments. It is not financial advice.
 
 ---
 
